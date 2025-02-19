@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 49%, rgba(4,151,197,1) 67%, rgb(51, 197, 226) 100%);
+
+}
+header{
+    margin: 50px;
+}
+h1{
+   text-align: center;
+   color: rgba(1, 10, 10, 0.873); 
+   font-weight: bold;
+}
+.etiqueta-cedula{
+    font-weight:  bold;
+}
+
+main{
+    display: grid;
+    place-items:center;
+    gap: 15px;
+}
+
+.button{
+    width: 100px;
+    padding: 5px 2px;
+}
+
+
